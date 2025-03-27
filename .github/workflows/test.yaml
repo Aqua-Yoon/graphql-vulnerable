@@ -5,7 +5,7 @@ on: [push, pull_request]
 permissions: read-all
 
 env:
-  DOCKER_IMAGE_NAME: 'YOON-docker-image-name:latest'
+  DOCKER_IMAGE_NAME: 'yoon-docker-image-name:latest'
 
 jobs:
   test:
